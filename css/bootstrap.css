@@ -418,7 +418,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid #EAF2F8;
+  border-top: 1px solid #eeeeee;
 }
 
 small,
@@ -2574,14 +2574,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #50d179;
+  border-color: #50d179;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #3c9e5b;
+  border-color: #3c9e5b;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2600,8 +2600,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: #3c9e5b;
+  border-color: #3c9e5b;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2869,14 +2869,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
+  color: #50d179;
+  border-color: #50d179;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #50d179;
+  border-color: #50d179;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -3422,7 +3422,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #EAF2F8;
+  background-color: #eeeeee;
   border-radius: 0.5rem;
 }
 
@@ -6733,8 +6733,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #303F9F !important;
-  background: linear-gradient(180deg, #007bff 0%, #3195ff 100%);
+  background-color: #50d179 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10097,7 +10096,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #50d179 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
