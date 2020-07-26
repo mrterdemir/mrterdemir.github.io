@@ -114,20 +114,24 @@
               <div class="form-row">
                 <div class="form-group col-md-6 text-light" style="font-size: 20px;">
                   <label>Name</label>
-                  <input type="text" class="form-control" name="Name">
+                  <span>*</span>
+                  <input type="text" class="form-control" name="Name" required="">
                 </div>
                 <div class="form-group col-md-6 text-light" style="font-size: 20px;">
                   <label>Email</label>
-                  <input type="email" class="form-control" name="Email">
+                  <span>*</span>
+                  <input type="email" class="form-control" name="Email" required="">
                 </div>
               </div>
               <div class="form-group text-light" style="font-size: 20px;">
                 <label>Subject</label>
-                <input type="text" class="form-control" name="Subject">
+                <span>*</span>
+                <input type="text" class="form-control" name="Subject" required="">
               </div>             
               <div class="form-group text-light" style="font-size: 20px;">
                   <label>Message</label>
-                  <textarea class="form-control" name="Message" rows="4"></textarea>
+                  <span>*</span>
+                  <textarea class="form-control" name="Message" required="" rows="4"></textarea>
                 </div>
               <button type="submit" class="btn btn-lg btn-outline-warning" style="font-family: 'Aldrich';"><b>SUBMIT</b>
               </button>
