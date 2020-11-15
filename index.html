@@ -1,23 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Custom Style CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
-    <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/a6b605eab5.js" crossorigin="anonymous"></script>
 
     <title>Home &#8722 Murat Erdemir</title>
@@ -25,10 +19,8 @@
 
   <body class="bg-page">
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <!-- Navbar Container -->
-        <a class="navbar-brand btn bg-logo animate__animated animate__fadeIn" href="https://erdemirmurat.com">Murat Erdemir</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand animate__animated animate__fadeIn" href="https://erdemirmurat.com">Murat Erdemir</a>
         <button class="navbar-toggler animate__animated animate__fadeIn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,27 +39,50 @@
                 <a class="nav-link btn" href="#contact">Contact</a>
             </li>
           </ul>
+      </nav>
 
-      </nav><br><br><br>
-
-    <!-- Hero Image -->
     <div class="hero-image">
         <div class="hero-text">
             <h1 class="display-4 animate__animated animate__slideInUp">Welcome</h1>
+            <br>
+            <a href="#about"><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down animate__animated animate__slideInUp" fill="#cccccc" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+            </svg></a>
         </div>
-    </div><br>
+    </div>
 
-    <!-- Page Content -->
-
-    <section><br><br>
-        <div class="container">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3pMCgdaXXZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div><br><br><br>
+    <section>
+      <div id="renderImageCarousel" class="carousel slide" data-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/renders/door-open.png" class="img-fluid d-block w-100" alt="1st render image">
+          </div>
+          <div class="carousel-item">
+            <img src="img/renders/liberty-statue.png" class="img-fluid d-block w-100" alt="2nd render image">
+          </div>
+          <div class="carousel-item">
+            <img src="img/renders/subway1.png" class="img-fluid d-block w-100" alt="1st render image">
+          </div>
+          <div class="carousel-item">
+            <img src="img/renders/subway2.png" class="img-fluid d-block w-100" alt="1st render image">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#renderImageCarousel" role="button" data-slide="prev">
+          <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#renderImageCarousel" role="button" data-slide="next">
+          <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
 
-    <section class="bg-dark" id="about">
+    <section id="about">
     <div class="container"><br><br><br>
 
             <h1 class="display-4 text-center text-warning">My name is Murat and I make games</h1><br>
@@ -76,20 +91,20 @@
             
             <p class="text-light">In Summer 2018 I worked as an Intern at <a class="text-warning" target="_blank" href="https://www.teias.gov.tr/">Turkish Electricity Transmission Corporation</a> and get so many experience about Electrical Engineering. Next summer, I wanted to participate a student exchange program. In June 2019, I went to United States of America and had a job as a Tent Installer at <a class="text-warning" target="_blank" href="https://sperrytentsseacoast.com/">Sperry Tents Seacoast</a> in New Hampshire. I met a lot of people from different cultures in the United States and have new friends. I've also traveled many states like Maine, Massachusetts and New York.</p><br>
 
-            <img src="img/image-2.jpg" class="img-fluid" style="border-radius: 2rem;" alt="Murat Erdemir">
+            <img src="img/image-2.jpg" class="img-fluid" alt="Murat Erdemir">
             <p class="text-muted text-center" style="font-size: 16px;">Last Workday at Sperry Tents Seacoast &#8722 October 2019</p><br>
 
             <p class="text-light">In my spare time I play video games, listen music and read interesting space articles. I like watching movies so if there’s a movie worth to watching, I go to see the movie with my friends.</p>
                 
             <p class="text-light">I started working with HTML when I was 13 then discovered I enjoy programming. Therefore, I started learning more programming languages in an attempt to find something that grabbed my interest. My current plan is get more knowledge about Unity, finish my game and subsequently market it. In the future, my dream is to become a programmer and to get a job as a game developer.</p><br>
 
-            <img src="img/image.jpg" class="img-fluid" style="border-radius: 2rem; alt="Murat Erdemir">
+            <img src="img/image.jpg" class="img-fluid" alt="Murat Erdemir">
             <p class="text-muted text-center" style="font-size: 16px;">Times Square from New York Trip &#8722 August 2019</p>
 
     </div><br><br><br>
     </section>
 
-    <section>
+    <section class="bg-dark">
         <div class="container"><br><br>
     
                 <h1 class="display-4 text-center text-warning">We've been working on Unity as Indie developers</h1><br>
@@ -98,35 +113,14 @@
                 
                 <p class="text-light font-italic">NOTE: Game assets can change in the long run.</p><br>
 
-                <div id="renderImageCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="img/renders/door-open.png" class="img-fluid d-block w-100" alt="1st render image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/renders/liberty-statue.png" class="img-fluid d-block w-100" alt="2nd render image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/renders/subway1.png" class="img-fluid d-block w-100" alt="1st render image">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/renders/subway2.png" class="img-fluid d-block w-100" alt="1st render image">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#renderImageCarousel" role="button" data-slide="prev">
-                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#renderImageCarousel" role="button" data-slide="next">
-                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/3pMCgdaXXZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
 
         </div><br><br><br>
         </section>
 
-    <section class="bg-dark" id="contact">
+    <section id="contact">
         <div class="container"><br><br><br>
 
             <h1 class="display-4 text-center text-light">Let's Get in Touch!</h1><br>
@@ -173,8 +167,6 @@
       </footer><br><br><br>
     </section>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

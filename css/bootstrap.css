@@ -2063,7 +2063,7 @@ pre code {
   background-color: #f8f9fa;
   background-clip: padding-box;
   border: 2px solid #ced4da;
-  border-radius: 2rem;
+  border-radius: 1rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2556,7 +2556,7 @@ textarea.form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 2rem;
+  border-radius: 1rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -3172,7 +3172,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 2rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -6803,7 +6803,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #f8d260 !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -8077,7 +8077,7 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
