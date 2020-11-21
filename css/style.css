@@ -6,10 +6,10 @@ body, html {
 .hero-image {
     
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/photo-sm.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/renders/benchwstatue.png");
 
   /* Set a specific height */
-  height: 50%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -20,8 +20,8 @@ body, html {
 
 @media (max-width: 768px) {
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/photo-xs.jpg");
-        height: 30%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/renders/benchwstatue.png");
+        height: 50%;
     }
 }
 
@@ -29,10 +29,10 @@ body, html {
 .articles-image {
     
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/photo-sm.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/renders/benchwstatue.png");
   
     /* Set a specific height */
-    height: 50%;
+    height: 60%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -43,8 +43,8 @@ body, html {
 
 @media (max-width: 768px) {
     .articles-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/photo-xs.jpg");
-        height: 30%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/renders/benchwstatue.png");
+        height: 50%;
     }
 }
 
@@ -57,14 +57,3 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-/* Selection highlight */
-::-moz-selection { /* Code for Firefox */
-    color: #ffffff;
-    background: #000000;
-  }
-  
-  ::selection {
-    color: #ffffff;
-    background: #000000;
-  }
